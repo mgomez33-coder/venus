@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ThemeToggle } from './ThemeToggle'
 
 const links = [
-  { name: 'Features', href: '#features' },
-  { name: 'How it works', href: '#how-it-works' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'Login', href: '#login' },
+  { name: 'Características', href: '#features' },
+  { name: 'Cómo Funciona', href: '#how-it-works' },
+  { name: 'Oportunidades', href: '#pricing' },
+  { name: 'Iniciar Sesión', href: '#login' },
 ]
 
 export function Navbar() {
@@ -56,7 +56,7 @@ export function Navbar() {
             ))}
             <ThemeToggle />
             <button className="px-6 py-2.5 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-semibold rounded-full transition-all duration-200 shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40">
-              Get Started
+              Comenzar
             </button>
           </div>
 
@@ -92,7 +92,7 @@ export function Navbar() {
                 </a>
               ))}
               <button className="w-full px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold rounded-full">
-                Get Started
+                Comenzar Ahora
               </button>
             </div>
           </motion.div>

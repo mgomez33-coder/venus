@@ -3,9 +3,9 @@
 import { Instagram, Twitter, Facebook } from 'lucide-react'
 
 const footerLinks = {
-  Product: ['Features', 'Pricing', 'How it works', 'App Store', 'Google Play'],
-  Company: ['About', 'Careers', 'Press', 'Blog', 'Partners'],
-  Resources: ['Help Center', 'Community', 'Terms', 'Privacy', 'Security'],
+  Plataforma: ['Explorar Campañas', 'Para Creadores', 'Para Marcas', 'Cómo Funciona', 'Precios'],
+  Compañía: ['Sobre Nosotros', 'Carreras', 'Prensa', 'Blog', 'Socios'],
+  Legal: ['Centro de Ayuda', 'Términos', 'Privacidad', 'Seguridad', 'Contacto'],
 }
 
 export function Footer() {
@@ -18,7 +18,7 @@ export function Footer() {
               VENUS
             </a>
             <p className="mt-4 text-slate-400 max-w-sm">
-              The ultimate fitness companion app. Transform your body, elevate your mind, and achieve your peak performance with personalized training and nutrition.
+              Conectando creadores auténticos con marcas y restaurantes premium. Monetiza tu contenido de forma real y transparente.
             </p>
             <div className="flex gap-4 mt-6">
               <a
@@ -63,14 +63,14 @@ export function Footer() {
 
         <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 VENUS Fitness. All rights reserved.
+            © 2026 VENUS. Todos los derechos reservados.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors">
-              Terms of Service
+              Términos de Servicio
             </a>
             <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors">
-              Privacy Policy
+              Política de Privacidad
             </a>
             <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors">
               Cookies

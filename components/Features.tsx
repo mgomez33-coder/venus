@@ -1,38 +1,38 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Dumbbell, Apple, HeartPulse, Trophy, Users, Smartphone } from 'lucide-react'
+import { Wifi, Users, CreditCard, BarChart2, Shield, Zap } from 'lucide-react'
 
 const features = [
   {
-    icon: Dumbbell,
-    title: 'Smart Workout Plans',
-    description: 'AI-generated workout routines tailored to your fitness level, goals, and available equipment. New routines adapt based on your performance and recovery.',
-  },
-  {
-    icon: Apple,
-    title: 'Nutrition Tracking',
-    description: 'Log meals effortlessly with our barcode scanner and AI nutrition assistant. Get personalized macro goals based on your training intensity.',
-  },
-  {
-    icon: HeartPulse,
-    title: 'Recovery Monitoring',
-    description: 'Track sleep quality, heart rate variability, and muscle recovery scores. Know exactly when to push hard and when to rest for optimal gains.',
-  },
-  {
-    icon: Trophy,
-    title: 'Achievement System',
-    description: 'Earn badges, unlock milestones, and compete on leaderboards. Stay motivated with challenges, streaks, and rewards for consistency.',
+    icon: Wifi,
+    title: 'Conexión Inteligente',
+    description: 'Nuestra IA empareja creadores con restaurantes y marcas que buscan autenticidad. Olvídate de buscar clientes manualmente.',
   },
   {
     icon: Users,
-    title: 'Community Challenges',
-    description: 'Join group challenges with friends or athletes worldwide. Create squads, participate in team events, and celebrate collective victories.',
+    title: 'Experiencias VIP',
+    description: 'Visitas el lugar como invitado especial, pruebas el menú y compartes tu experiencia genuina con tu audiencia.',
   },
   {
-    icon: Smartphone,
-    title: 'Wearable Integration',
-    description: 'Seamlessly sync with Apple Watch, Garmin, Fitbit, and WHOOP. Get real-time stats and guided workouts directly on your wrist.',
+    icon: CreditCard,
+    title: 'Pagos Automáticos',
+    description: 'Contratos inteligentes aseguran entregables transparentes y pago inmediato tras la aprobación. Siningale.',
+  },
+  {
+    icon: BarChart2,
+    title: 'Portafolio Profesional',
+    description: 'Construye un historial verificable que trasciende los algoritmos. Muestra tu impacto real a futuras marcas.',
+  },
+  {
+    icon: Shield,
+    title: 'Verificación Instantánea',
+    description: 'Perfil verificado y sistema de reseñas. Las marcas saben exactamente quién es su creador.',
+  },
+  {
+    icon: Zap,
+    title: 'Crecimiento Acelerado',
+    description: 'Accede a promociones exclusivas, eventos solo por invitación y oportunidades que no encontrarás en redes sociales.',
   },
 ]
 
@@ -47,14 +47,14 @@ export function Features() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 dark:bg-primary-500/20 text-primary-600 dark:text-primary-400 text-sm font-medium mb-4">
-            Powerful Features
+            Todo lo que Necesitas
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white mb-6">
-            Everything You Need to
-            <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent"> Succeed</span>
+            Tu Camino hacia
+            <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent"> Ingresos Reales</span>
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400">
-            Our comprehensive suite of tools covers every aspect of your fitness journey, from training to nutrition to recovery.
+            Una plataforma completa que cubre cada aspecto de tu carrera como creador, desde encontrar oportunidades hasta cobrar.
           </p>
         </motion.div>
 

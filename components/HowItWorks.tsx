@@ -1,31 +1,31 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { UserPlus, Target, Zap, TrendingUp } from 'lucide-react'
+import { UserPlus, Target, Camera, Wallet } from 'lucide-react'
 
 const steps = [
   {
     icon: UserPlus,
-    title: 'Create Your Profile',
-    description: 'Tell us about your fitness level, goals, available equipment, and any constraints. Our AI builds a comprehensive picture of your starting point.',
+    title: 'Crea Tu Perfil',
+    description: 'Cuéntanos sobre tu estilo de contenido, audiencia y redes sociales. Nuestra IA evalúa tu perfil y te verifica rápidamente.',
     step: 1,
   },
   {
     icon: Target,
-    title: 'Set Your Goals',
-    description: 'Define what success looks like for you. Whether it\'s building muscle, losing fat, improving endurance, or preparing for an event — we\'ll help you get there.',
+    title: 'Explora Oportunidades',
+    description: 'Navega campañas de restaurantes y marcas que encajan con tu perfil. Filtra por ubicación, tipo de contenido o compensación.',
     step: 2,
   },
   {
-    icon: Zap,
-    title: 'Start Training',
-    description: 'Follow your personalized workout plans, log your nutrition, and track your progress. Every rep, set, and meal gets analyzed to optimize your results.',
+    icon: Camera,
+    title: 'Crea y Comparte',
+    description: 'Recibe a tu cliente VIP, disfruta la experiencia y captura tu historia. Comparte tu contenido auténtico tras la aprobación.',
     step: 3,
   },
   {
-    icon: TrendingUp,
-    title: 'Watch Yourself Grow',
-    description: 'Celebrate wins, break through plateaus, and see real transformation. Our adaptive system ensures you\'re always progressing toward your best self.',
+    icon: Wallet,
+    title: 'Cobra Sin Esperar',
+    description: 'Recibe tu compensación automáticamente al aprobar tu contenido. Sin facturas, sin perseguir pagos, sin complicaciones.',
     step: 4,
   },
 ]
@@ -41,14 +41,14 @@ export function HowItWorks() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 dark:bg-primary-500/20 text-primary-600 dark:text-primary-400 text-sm font-medium mb-4">
-            Simple Process
+            Proceso Sencillo
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white mb-6">
-            Get Started in
-            <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent"> Minutes</span>
+            Empieza en
+            <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent"> Minutos</span>
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400">
-            From signup to your first workout in under 5 minutes. No complicated setup, no lengthy questionnaires.
+            Del registro a tu primera oportunidad en menos de 5 minutos. Sin procesos complicados, sin cuestionarios eternos.
           </p>
         </motion.div>
 
